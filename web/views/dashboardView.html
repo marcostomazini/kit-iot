@@ -26,6 +26,12 @@
   </div>
 
   <div class="sensor">
+    <span>Ruido em dB</span>
+    <strong class="sensor-value">{{ data.noise / 10 }}</strong>
+    <small>{{ data.noise / 11 | number:0 }} de 122</small>
+  </div>
+
+  <div class="sensor">
     <span>Temperatura</span>
     <strong class="sensor-value">{{ data.temperature }}<i>ºC</i></strong>
   </div>

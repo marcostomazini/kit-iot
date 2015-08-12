@@ -1,0 +1,38 @@
+{
+  "name": "kit-iot",
+  "version": "1.6.1",
+  "description": "Kit Desenvolvimento IoT - Telefonica Vivo",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telefonicadigital/kit-iot.git"
+  },
+  "author": "Telefonica Vivo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "^4.10.6",
+    "express-validator": "^2.7.0",
+    "insight": "^0.4.3",
+    "open": "0.0.5",
+    "request": "^2.51.0",
+    "serialport": "^1.4.9",
+    "socket.io": "^1.2.1"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-text-replace": "latest"
+  }
+}
